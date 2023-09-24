@@ -18,8 +18,10 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oregano&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oregano&display=swap"
       rel="stylesheet"
     />
     <!-- Font Awesome -->
@@ -34,19 +36,21 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div>
-        <img src="images/juhan.ico" alt="logo" />
-        <h1><a href="#">juhan</a></h1>
+    <header class="header">
+      <div class="header_logo">
+        <img class="header_logo_img" src="images/juhan.ico" alt="logo" />
+        <h1 class="header_logo_title"><a href="#">juhan</a></h1>
       </div>
       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#work">My work</a></li>
-          <li><a href="#testimonial">Testimonial</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="header_menu">
+          <li><a class="header_menu_item active" href="#home">Home</a></li>
+          <li><a class="header_menu_item" href="#about">About</a></li>
+          <li><a class="header_menu_item" href="#skills">Skills</a></li>
+          <li><a class="header_menu_item" href="#work">My work</a></li>
+          <li>
+            <a class="header_menu_item" href="#testimonial">Testimonial</a>
+          </li>
+          <li><a class="header_menu_item" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -54,15 +58,21 @@
     <main>
       <!-- Home -->
       <section id="home">
-        <img src="images/profile.jpg" alt="juhan's profile" />
-        <h2>Hello I&#39;m SI Master</h2>
-        <p>si개발 마스터가 되는 그날까지</p>
-        <a href="#contact">Comtact Me</a>
+        <img
+          class="home_avatar"
+          src="images/profile.jpg"
+          alt="juhan's profile"
+        />
+        <br class="home_title">Hello </br> I&#39;m 
+        <strong class="home_title--strong">SI Master</strong>, juhan</h2>
+        <p class="home_description">퇴근후에도 공부하는 3년차 이무기</p>
+        <a class="home_contact" href="#contact">Comtact Me</a>
       </section>
+
       <!-- About -->
-      <section id="about">
-        <h2>About me</h2>
-        <p>no academy only solo study</p>
+      <section id="about" class="section">
+        <h2 class="title">About me</h2>
+        <p class="description">no academy only solo study</p>
         <ul>
           <li>
             <i class="fa-brands fa-html5"></i>
@@ -99,10 +109,11 @@
           </li>
         </ul>
       </section>
+
       <!-- Skills -->
-      <section id="skills">
-        <h2>My Skills</h2>
-        <p>Skills & Attributes</p>
+      <section id="skills" class="section">
+        <h2 class="title">My Skills</h2>
+        <p class="description">Skills & Attributes</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid
           similique non id corporis iure debitis vel labore excepturi placeat,
@@ -174,10 +185,11 @@
           </section>
         </div>
       </section>
+
       <!-- Work -->
-      <section id="work">
-        <h2>My Work</h2>
-        <p>Projects</p>
+      <section id="work" class="section">
+        <h2 class="title">My Work</h2>
+        <p class="description">Projects</p>
         <ul>
           <li>
             <button>All <span>8</span></button>
@@ -267,10 +279,11 @@
           </li>
         </ul>
       </section>
+
       <!-- Testimonials -->
-      <section id="testimonial">
-        <h2>Testimonial</h2>
-        <p>See what they say about me</p>
+      <section id="testimonial" class="section">
+        <h2 class="title">Testimonial</h2>
+        <p class="description">See what they say about me</p>
         <ul>
           <li>
             <img src="images/testimonials/people1.webp" alt="people1" />
@@ -317,10 +330,11 @@
         </a>
       </aside>
     </main>
+
     <!-- Footer -->
-    <footer id="contact">
-      <h2>Let&#39;s talk</h2>
-      <p>starsting1@gmail.com</p>
+    <footer id="contact" class="section">
+      <h2 class="title">Let&#39;s talk</h2>
+      <p class="description">starsting1@gmail.com</p>
       <ul>
         <li>
           <a
