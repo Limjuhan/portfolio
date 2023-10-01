@@ -1,0 +1,18 @@
+display: inline:css로 width,height을 지정하여도 태그안에 값의길이에따라 크기가 바뀜. 값이 없을시 디자인한결과 안보임.
+
+         inline-block: inline의 특징인 한줄에 나열. 그러면서 block처럼 width나 height의 영향을 받는다.
+
+        block : 상자. 한줄에 하나만 들어간다.	
+		
+        flex: 한줄에 들어간다.flex박스사용시 지정			
+
+<position>
+기본값은 static(left,top등 변화를줘도 그대로 유지됨)
+
+relative:원래 아이템위치에서 상대적으로 이동
+
+absolute : 아이템과 가장가까운 상위박스(담고있는박스)를 기준으로 이동
+
+fixed : 윈도우창(웹페이지) 기준으로 이동
+
+sticky: 스크롤을 아래로 내릴시 안사라지고 계속 그자리위치 유지

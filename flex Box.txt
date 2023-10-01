@@ -1,0 +1,46 @@
+
+div.container>div.item.itme${$}*10
+
+vh: 현재 보여지고있는창기준 지정
+% : 부모창(태그)기준 지정
+
+<Flex Box>
+--container에서 수정시(item들을 감싸고있는박스)
+
+flex-direction: row가 기본(왼->오)메인이 수평축
+                  column(위->아래)메인이 수직축
+
+flex-wrap: nowrap(기본)창축소시 아이템들을 한줄에 표시
+             wrap사용시 창에 가득찰시 아랫줄로 넘어간다.
+
+justify-content
+:flex-end - 아이템들을 수평축일시 오른쪽정렬, 수직축일시 아래부터 정렬
+:space-around - item들간의 간격생성(왼쪽끝과 오른쪽끝이 간격이 같고.제외한 아이템들간정렬간격 같음)
+:space-between - 왼,오 양끝쪽은 간격x. 나머지 가운데 item간의 간격 일정
+:space-evenly - 왼,오끝을 포함한 모든 item들간격이 일정
+
+
+align-items(반대축기준 item들을 정렬)
+:center -
+:baseline - item들간의 크기가 다를시 베이스라인에 맞춰서 배치
+
+
+align-content(반대축기준.justify-content사용하는 속성들 사용)
+:
+
+--item태그들에서 수정시
+
+:flex-grow - container가 늘어날시 item들이 어떻게 변화할지 지정(1이 기본값.)
+
+:flex-shrink - container가 줄어들시 item들이 어떻게 변화할지 지정(1이 기본값.)
+
+:flex-basis -  컨테이너크기에비례해 늘어날때,줄어들때 평상시에 item간의 크기비율 지정(ex:50%)
+
+align-self: - 컨테이너박스 기준 item낱개로 위치 지정(ex:center)
+
+
+
+
+
+
+
