@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cloneYoutube</title>
+    <script
+      src="https://kit.fontawesome.com/21269e66d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- first bar -->
+    <header>
+      <div class="logo">
+        <li class="main_logo"><i class="fa-brands fa-youtube"></i>Youtube</li>
+      </div>
+      <div class="icons">
+        <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+      </div>
+    </header>
+
+    <!-- Video play-->
+    <section id="video">
+      <video controls>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.webm"
+          type="video/webm"
+        />
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.ogg"
+          type="video/ogg"
+        />
+        오류 발생시 대체 텍스트
+      </video>
+    </section>
+
+    <!-- All about video  -->
+
+    <div class="videoInfo-container">
+      <div class="tag_about">
+        <li>#DreamCoding</li>
+        <li>#DreamCodings</li>
+        <li>#Eliie</li>
+      </div>
+      <div class="video_title">
+        <span>
+          Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라
+          만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과
+          함께하는 프론트엔드 실전 입문편
+        </span>
+        <button class="moreBtn">
+          <i class="fa-solid fa-caret-down"></i>
+        </button>
+      </div>
+
+      <div class="views">
+        <span class="views">1M views month ago</span>
+      </div>
+    </div>
+
+    <!-- actions -->
+    <ul class="actions">
+      <li>
+        <button><i class="fa-solid fa-thumbs-up"></i><span>1K</span></button>
+      </li>
+      <li>
+        <button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button>
+      </li>
+      <li>
+        <button><i class="fa-solid fa-share"></i><span>Share</span></button>
+      </li>
+      <li>
+        <button><i class="fa-solid fa-plus"></i><span>Save</span></button>
+      </li>
+      <li>
+        <button><i class="fa-solid fa-flag"></i><span>Report</span></button>
+      </li>
+    </ul>
+
+    <div class="channel">
+      <div class="metadata">
+        <i class="fa-solid fa-person"></i>
+        <div class="info">
+          <span>드림코딩by엘리</span>
+          <span>1M subscribers</span>
+        </div>
+      </div>
+      <button><strong>Subscribe</strong></button>
+    </div>
+
+    <!-- Relative information -->
+    <section id="UpNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <img src="image/1.png" alt="" />
+          <div class="info">
+            <span class="title"
+              >프론트엔드 강의, 프론트엔드 개발자가 되고 싶다면? 웹개발 입문자편
+              강의를 시작합니다 ⭐️ (HTML, CSS, Javascript + 실전
+              프로젝트)</span
+            >
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+        <li class="item">
+          <img src="image/2.png" alt="" />
+          <div class="info">
+            <span class="title"
+              >HTML 기초, React 할때 꼭 필요한 팁! 쉽다고 무시하면 안돼요 |
+              프론트엔드 개발자 입문편: HTML, CSS, Javascript
+            </span>
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+        <li class="item">
+          <img src="image/3.png" alt="" />
+          <div class="info">
+            <span class="title"
+              >HTML 태그 완성, 웹 포트폴리오 만들기 전에 꼭 보세요 | 프론트엔드
+              개발자 입문편: HTML, CSS, Javascript
+            </span>
+            <span class="name">드림코딩 by 엘리</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn"></button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
